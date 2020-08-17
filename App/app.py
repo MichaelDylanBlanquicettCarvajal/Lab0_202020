@@ -107,8 +107,6 @@ def countElementsFilteredByColumn(criteria, column, lst):
 def countElementsByCriteria(criteria, lst, lst2):
     """
     Retorna la cantidad de elementos que cumplen con un criterio para una columna dada
-
-    
     """
     if len(lst)==0:
         print("La lista esta vacía")  
@@ -130,8 +128,7 @@ def countElementsByCriteria(criteria, lst, lst2):
             respuesta = "No hay peliculas"
         else:
             respuesta = str(conteo)+"   "+str((round((pro/conteo),2)))
-    print("Tiempo de ejecución ",t1_stop-t1_start," segundos")
-    
+    print("Tiempo de ejecución ",t1_stop-t1_start," segundos") 
     return respuesta
     
 
